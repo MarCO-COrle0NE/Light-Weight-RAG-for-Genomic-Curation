@@ -114,10 +114,10 @@ If using "NeuML/pubmedbert-base-embeddings" and cross encoder, (correctness grad
 Use UMAP (n_neighbors=8, min_dist=0.1) to project embeddings to 2-D.
 
 When normalized,
-![UMAP of AD Snippet Embeddings_normalized]('normalized.png.')
+![UMAP of AD Snippet Embeddings_normalized]('normalized.png')
 
 When not normalized,
-![UMAP of AD Snippet Embeddings]('Pubmed.png.')
+![UMAP of AD Snippet Embeddings]('Pubmed.png')
 
 Although they both split the 5 snippets quite well, note that S1-3 and S4-5 are respectively from two papers.
 
