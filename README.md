@@ -33,7 +33,7 @@ Run the following on **Google Colab** or follow requirements.txt on a local CPU-
 |------------|---------|------------|
 | **Embedding Model** | `NeuML/pubmedbert-base-embeddings` | Biomedical domain specific → gene & disease representations won't be too close. |
 | **Vector DB** | `Chroma` (LangChain wrapper) | Lightweight local store; persistent on disk. |
-| **Retrieval Granularity** | Sentence-level with ±1 context window | Mimics abstract-like paragraph continuity; avoids losing context. |
+| **Retrieval Granularity** | Sentence-level with ±1 context window, order preserved | Mimics abstract-like paragraph continuity; avoids losing context. |
 | **Normalization** | ❌ Not applied | Empirically good performance for PubMedBERT and when visualized. |
 | **Top-k (dense)** | 5 (before reranking) | Balances recall vs compute. |
 | **Cross-encoder Reranker** | `cross-encoder/ms-marco-MiniLM-L-6-v2` | Re-scores candidates by semantic relevance and select top 2. |
