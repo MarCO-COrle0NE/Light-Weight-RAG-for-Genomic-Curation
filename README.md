@@ -58,7 +58,7 @@ Run the following on **Google Colab** or follow requirements.txt on a local CPU-
 | S1–S3 | *Identification of Genetic Heterogeneity of Alzheimer’s Disease across Age* | PMC6544706 |
 | S4–S5 | *Genetic Heterogeneity of AD in Subjects with and without Hypertension* | PMC6836675 |
 
-Total sentences indexed: **≈25 (5 snippets × 5 sentences each)**  
+Total sentences indexed: **≈11 (5 snippets × 2 sentences each)**  
 Each stored with metadata (`id`, `title`, `source`, `position`).
 
 <!-- ---
@@ -113,11 +113,8 @@ If using "NeuML/pubmedbert-base-embeddings" and cross encoder, (correctness grad
 
 Use UMAP to project embeddings to 2-D.
 
-**Visualization Placeholder**
 
-> 🖼️ Insert your generated UMAP figure below.
-
-![UMAP of AD Snippet Embeddings](<PLACEHOLDER_PATH_TO_IMAGE>)
+![UMAP of AD Snippet Embeddings]('MiniLM.png.')
 
 ---
 
